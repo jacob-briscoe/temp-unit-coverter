@@ -15,7 +15,9 @@ const TempUnitConverter = ({ initModel }) => {
   return (
     <div className="container">
       <div className="row justify-content-center border-bottom">
-        <div><h3>Temp Converter</h3></div>
+        <div>
+          <span className="display-4">Temp Converter</span><small className="font-weight-light ml-2">v{process.env.REACT_APP_VERSION}</small>
+        </div>
       </div>
       <div className="row justify-content-center mt-3">
         <div className="col">
